@@ -14,6 +14,7 @@ const KEY = process.env.SMZDM_COOKIE
 const USER = process.env.SMZDM_USER
 const PASS = process.env.SMZDM_PASS
 const SEND_KEY = process.env.SEND_KEY
+const PUSH_KEY = process.env.PUSH_KEY
 
 async function downFile () {
     const url1 = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.js'
