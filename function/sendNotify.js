@@ -109,6 +109,7 @@ function serverNotify(text, desp, timeout = 2100) {
         })
       }, timeout)
     } else {
+                console.log(`server酱发送通知消息异常\n${JSON.stringify(process.env.SMZDM_COOKIE)}`);
       console.log('\n您未提供server酱的SCKEY，取消微信推送消息通知\n');
       resolve()
     }
